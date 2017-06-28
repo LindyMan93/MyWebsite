@@ -1,108 +1,208 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Nathan Lindenbaum</title>
+    <title>Nathan Lindenbaum</title>
+    <meta name="description" content="Nathan Lindenbaum's Personal Website'" />
+    <meta name="keywords"
+          content="software development, application development,
+          app development, grand valley state university, gvsu, engineer, conveyor" />
+
     <link rel="icon" type="image/png" href="NRL Logo New.png">
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="NRLStyle.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Facebook OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="#" />
+    <meta property="og:site_name" content="#">
+    <meta property="og:description" content="#" />
+    <meta property="og:image" content="#" />
+    <meta name="author" content="Nathan Lindenbaum">
+
+    <!-- Twitter OG -->
+    <meta name="twitter:card" content="#">
+    <meta name="twitter:site" content="#" />
+    <meta name="twitter:image" content="#">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/material-kit.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/NRLStyle.css">
+
+    <!-- JavaScript -->
+    <!--   Core JS Files   -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/material.min.js"></script>
+
+    <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+    <script src="js/material-kit.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+		$().ready(function(){
+			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+		});
+    </script>
+
 </head>
-<body>
-	<header class="container">
-		<div class="row">
-            <img src="NRL Logo New.png" alt="NRL">
-			<h1 class="col-sm-8">Nathan Lindenbaum</h1>
-			<nav class="col-sm-4">
-                <a class="btn btn-primary" href="#">School</a>
-                <a class="btn btn-primary" href="#">Work</a>
-                <a class="btn btn-primary" href="#">Hobbies</a>
-				<a class="btn btn-primary" href="#">About Me</a>
-			</nav>
-		</div>
-	</header>
-	<section class="jumbotron">
-	</section>
-    <div class="info">
+<body id="Top" class="profile-page">
+    <nav class="navbar blue-grey-bg navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#top" class="navbar-brand smoothScroll">
+                    <img class="navbar-brand" src="NRL Logo New.png" style="height:initial">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#Education" class="btn smoothScroll">
+                            Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Experience" class="btn smoothScroll">
+                            Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Hobbies" class="btn smoothScroll">
+                            Hobbies
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn smoothScroll" href="#AboutMe">About Me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="space">
+
+        </div>
         <section class="container">
-            <h2>Work</h2>
-            <div class="col-sm-6">
-                <img src="dccLogo.jpg" />
-                <h4>Design Engineer - Dynamic Conveyor Corporation (May 2015 - Present)</h4>
-                <ul class="Jobs">
-                    <li>Designed custom conveyor solutions for a range of different automation lines.</li>
-                    <li>3D design of all components from brackets to support structures. (Autodesk Inventor)</li>
-                    <li>Created custom Autodesk Inventor Software for communication with ERP. 
-                    <a href="https://github.com/LindyMan93/Inventor_2_M2K">(GitHub)</a></li>
-                </ul>
+            <div class="row">
+                <h2 class="col-sm-12" id="AboutMe">Who Am I?</h2>
             </div>
-            <div class="col-sm-6">
-                <img src="cbgLogo.jpg"/>
-                <h4>Intern - Campbell Grinder Company (2014 - 2015)</h4>
-                <ul class="Jobs">
-                    <li>Normalized data and maintained accuracy in a company-wide ERP system (FileMaker Pro & Epicor).</li>
-                    <li>Recorded expenses for company bonus and profit sharing program using advanced spreadsheet skills.</li>
-                </ul>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="main-raised">
+                        I am Nathan Lindenbaum. Derek has quickly realizes that he is wrong. He needs to seek legal counsel. Conforming to the ACM Code of Ethics says that he can only “Access computing and communication resources only when authorized to do so” (ACM Code Of Ethics). In this case, he did not have authority to change the source code of this program. This new process was for the new company’s benefit, and gave nothing to the old company. Derek has the responsibility to inform the heads of both companies what he has done, and the legal ramifications of the alteration.
+                    </p>
+                </div>
+                <div class="col-sm-5 col-sm-offset-1">
+                    <img src="wsCover.jpg" />
+                </div>
             </div>
-            </section>
+        </section>
+
         <section class="container">
-            <div class="col-sm-6">
-                <h4>General Contractor Way Cool Pools, LLC , MI (2012 – 2015)</h4>
-                <ul class="Jobs">
-                    <li>Planned and built pools and landscape areas for consumer and commercial clients.</li>
-                    <li>Designed and installed custom coping and tile to augment pool aesthetics.</li>
-                    <li>Managed setup of pumps and other supporting mechanical devices.</li>
-                </ul>
+            <h2 id="Experience" style="text-align:center">Experience</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="dccLogo.png" />
+                    <h4>Design Engineer - Dynamic Conveyor Corporation (May 2015 - Present)</h4>
+                    <ul class="Jobs">
+                        <li>Designed custom conveyor solutions for a range of different automation lines.</li>
+                        <li>3D design of all components from brackets to support structures. (Autodesk Inventor)</li>
+                        <li>
+                            Created custom Autodesk Inventor Software for communication with ERP.
+                            <a href="https://github.com/LindyMan93/Inventor_2_M2K">(GitHub)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <img src="cbgLogo.png" />
+                    <h4>Intern - Campbell Grinder Company (2014 - 2015)</h4>
+                    <ul class="Jobs">
+                        <li>Normalized data and maintained accuracy in a company-wide ERP system (FileMaker Pro & Epicor).</li>
+                        <li>Recorded expenses for company bonus and profit sharing program using advanced spreadsheet skills.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-6">
-                <img src="tscLogo.png" />
-                <h4>Assembler & Floor Sales Associate Tractor Supply Company, MI (2010 – 2012)</h4>
-                <ul class="Jobs">
-                    <li>Assembled a wide variety of floor equipment for retail sales.</li>
-                    <li>Unloaded semi-trucks and stocked inventory.</li>
-                    <li>Supported sales and customer service for all departments from feed to farm equipment.</li>
-                </ul>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>General Contractor Way Cool Pools, LLC , MI (2012 – 2015)</h4>
+                    <ul class="Jobs">
+                        <li>Planned and built pools and landscape areas for consumer and commercial clients.</li>
+                        <li>Designed and installed custom coping and tile to augment pool aesthetics.</li>
+                        <li>Managed setup of pumps and other supporting mechanical devices.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <img src="tscLogo.png" />
+                    <h4>Assembler & Floor Sales Associate Tractor Supply Company, MI (2010 – 2012)</h4>
+                    <ul class="Jobs">
+                        <li>Assembled a wide variety of floor equipment for retail sales.</li>
+                        <li>Unloaded semi-trucks and stocked inventory.</li>
+                        <li>Supported sales and customer service for all departments from feed to farm equipment.</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="container">
-            <h2>School</h2>
-            <div class="col-sm-6">
-			<img src="gvsuLogo.png" />
-                <h4>Grand Valley State Univeristy (2014-Present)</h4>
-                <ul class="Classes">
-                    <li>Bachelors of Science of Computer Science</li>
-                    <li>Introduction to Engineering</li>
-                    <li>Arduino Programming in C</li>
-                    <li>Object Oriented Programming in Java (I & II)</li>
-                    <li>Database Management (SQL)</li>
-                    <li>CIS350 Software Engineering</li>
-                </ul>
-            </div>
-            <div class="col-sm-6">
-			<img src="mccLogo.png" />
-                <h4>Muskegon Community College (2012-2014)</h4>
-                <ul class="Classes">
-                    <li>3.5 GPA Dean’s List</li>
-                    <li>Associates in Science & Arts</li>
-                    <li>Computer Aided Design 240 Product Design</li>
-                    <li>Computer Aided Design 250 SolidWorks Parametric Modeling</li>
-                </ul>
-            </div>
-			<div class="col-sm-6">
-			<img src="rpLogo.jpg" />
-                <h4>Reeths-Puffer High School (2008-2012)</h4>
-                <ul class="Classes">
-                    <li>3.5 GPA Dean’s List</li>
-                    <li>Dual Enrolled at Muskegon Community College</li>
-                    <li>Robot Club</li>
-                    <li>Varsity Men's Soccer</li>
-                </ul>
+            <h2 id="Education" style="text-align:center">Education</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="gvsuLogo.png" />
+                    <h4>Grand Valley State Univeristy (2014-Present)</h4>
+                    <ul class="Classes">
+                        <li>Bachelors of Science of Computer Science</li>
+                        <li>Introduction to Engineering</li>
+                        <li>Arduino Programming in C</li>
+                        <li>Object Oriented Programming in Java (I & II)</li>
+                        <li>Database Management (SQL)</li>
+                        <li>CIS350 Software Engineering</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <img src="mccLogo.png" />
+                    <h4>Muskegon Community College (2012-2014)</h4>
+                    <ul class="Classes">
+                        <li>3.5 GPA Dean’s List</li>
+                        <li>Associates in Science & Arts</li>
+                        <li>Computer Aided Design 240 Product Design</li>
+                        <li>Computer Aided Design 250 SolidWorks Parametric Modeling</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="rpLogo.png" />
+                        <h4>Reeths-Puffer High School (2008-2012)</h4>
+                        <ul class="Classes">
+                            <li>3.5 GPA Dean’s List</li>
+                            <li>Dual Enrolled at Muskegon Community College</li>
+                            <li>Robot Club</li>
+                            <li>Varsity Men's Soccer</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="container">
-            <h2>Hobbies</h2>
+            <h2 id="Hobbies">Hobbies</h2>
         </section>
         <section class="container">
-            <h2>Current Endeavors</h2>
+            <h2 id="Current">Current Endeavors</h2>
         </section>
     </div>
 </body>
