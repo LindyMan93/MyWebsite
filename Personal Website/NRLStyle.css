@@ -35,9 +35,8 @@ header p {
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center;
-  color: #ffffff;
-  height: 1000px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px;
 }
 
 .jumbotron h2 {
@@ -45,6 +44,7 @@ header p {
   font-weight: 700;
   margin: 0;
   color: #fff;
+  
 }
 
 .jumbotron h3 {
@@ -52,35 +52,26 @@ header p {
   color: #fff;
 }
 
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
 
-.col-md-6 {
-  margin: 0 0 30px;
-}
 
 .btn.btn-primary {
   border-radius: 2px;
-  border: 0px;
+  position: center;
+  border: 3px;
   color: Black;
   text-shadow: none;
   background-color: #ffffff;
 }
 
-col-sm-4.btn {
+.col-sm-4.btn {
 
     color: black;
 
 }
 
-section . {
-    background-size: 200px, 100px;
-}
-
 .btn.btn-primary:hover {
   background-color: lightsteelblue;
+  
 }
 
 .btn-secondary {
